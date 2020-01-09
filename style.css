@@ -1,0 +1,19 @@
+.icon {
+  position: absolute;
+  top: 1%;
+  right: 40%;
+}
+.icon:hover + .tooltip-content {
+visibility: visible;
+color: black;
+background-color: red;
+top: 50px;
+left: 800px;
+text-align: center;
+}
+.tooltip-content {
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  width: 300px;
+}
